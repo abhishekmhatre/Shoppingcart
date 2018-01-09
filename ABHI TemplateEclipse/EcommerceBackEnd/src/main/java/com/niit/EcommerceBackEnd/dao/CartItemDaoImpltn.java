@@ -1,4 +1,4 @@
-/*package com.niit.EcommerceBackEnd.dao;
+package com.niit.EcommerceBackEnd.dao;
 
 import java.util.Date;
 import java.util.List;
@@ -64,4 +64,3 @@ public class CartItemDaoImpltn implements CartItemDao
 			return customerOrder;
 	}
 }
-*/

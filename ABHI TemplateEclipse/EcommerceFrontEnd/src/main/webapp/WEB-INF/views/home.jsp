@@ -56,7 +56,7 @@ height: 80%;
       <li data-target="#newcarousel" data-slide-to="2"></li>
     </ol>
     
-    
+     
     
    <div class="carousel-inner div-carousel-inner">
       <div class="item active">
@@ -68,7 +68,7 @@ height: 80%;
 
       <div class="item">
         <img src="resources/images/wrogn.jpg" class="img_carousel" alt="Wrogn" >
-	<center><h1>Breakaway Youth Fashion</h1></center>
+     <center><h1>Breakaway Youth Fashion</h1></center>
 	</div>
     
       <div class="item">
@@ -99,7 +99,7 @@ height: 80%;
   </div>
 </div>
 
-</div>
+<!-- </div> -->
 <div class="footer">
  <%@include file="footer.jsp" %>
 </div>

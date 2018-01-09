@@ -1,4 +1,4 @@
-/*package com.niit.EcommerceBackEnd.dao;
+package com.niit.EcommerceBackEnd.dao;
 
 import com.niit.EcommerceBackEnd.model.Cart;
 import com.niit.EcommerceBackEnd.model.CartItem;
@@ -11,4 +11,3 @@ public interface CartItemDao
 	Cart getCart(int cartId);
 	CustomerOrder createOrder(Cart cart);
 }
-*/

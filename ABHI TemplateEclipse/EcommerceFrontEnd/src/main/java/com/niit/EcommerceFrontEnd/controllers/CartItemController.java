@@ -1,4 +1,4 @@
-/*package com.niit.EcommerceFrontEnd.controllers;
+package com.niit.EcommerceFrontEnd.controllers;
 
 import java.security.Principal;
 import java.util.List;
@@ -59,7 +59,7 @@ public class CartItemController
 		
 		
 		CartItem cartItem=new CartItem();
-		cartItem.setQuantity(1);
+		cartItem.setQuantity(quantity);
 		cartItem.setTotalPrice(cartItem.getQuantity() * product.getPrice());
 		cartItem.setCart(cart);
 		cartItem.setProduct(product);
@@ -141,4 +141,3 @@ public class CartItemController
 			return "thanks";
 		}
 }
-*/

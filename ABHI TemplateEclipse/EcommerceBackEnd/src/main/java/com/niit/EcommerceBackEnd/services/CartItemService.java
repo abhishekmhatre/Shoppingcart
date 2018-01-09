@@ -1,4 +1,4 @@
-/*package com.niit.EcommerceBackEnd.services;
+package com.niit.EcommerceBackEnd.services;
 
 import com.niit.EcommerceBackEnd.model.Cart;
 import com.niit.EcommerceBackEnd.model.CartItem;
@@ -11,4 +11,3 @@ public interface CartItemService
 	Cart getCart(int cartId);
 	CustomerOrder createOrder(Cart cart);
 }
-*/

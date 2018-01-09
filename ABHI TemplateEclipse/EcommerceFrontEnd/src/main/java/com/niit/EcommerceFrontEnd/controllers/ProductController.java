@@ -66,9 +66,9 @@ public class ProductController
 		
 		
 		
-		@RequestMapping(value="/admin/getproductform")
+		/*@RequestMapping(value="/admin/getproductform")*/
 		
-		/*@RequestMapping(value="/getproductform")*/
+		@RequestMapping(value="/getproductform")
 		public String getProductForm(@RequestParam(required=false)int id,Model model){
 			if(id==0) //add product
 			model.addAttribute("product",new Product());
@@ -115,7 +115,7 @@ public class ProductController
 	    	return "redirect:/all/getallproducts";
 	    }
 		
-		@RequestMapping("/all/product/searchbycategory")
+	/*	@RequestMapping("/all/product/searchbycategory")
 		public String selectByCatagory(@RequestParam String searchCondition,Model model)
 		{
 			model.addAttribute("productsAttr",productService.getAllProducts());
@@ -124,5 +124,5 @@ public class ProductController
 			else
 			model.addAttribute("searchCondition",searchCondition);
 			return "productlist";
-		}
+		}*/
 }
